@@ -44,13 +44,31 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 40px;
   gap: 100px;
-  padding: 30px;
+  padding: 5px;
 }
 
 .navbar a {
-  font-size: larger;
+  font-size: 35px;
   font-weight: 700;
   text-align: center;
   text-decoration: none;
+  padding-left: 5px;
+}
+
+.bar-link:hover {
+  padding: 5px;
+  padding-bottom: 2px;
+  border: #120d5b solid 3px;
+  border-radius: 5px;
+  width: 55px;
+  height: 50px;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 5px;
+  background: #120d5b;
+  color: aquamarine;
 }/*# sourceMappingURL=style.css.map */
