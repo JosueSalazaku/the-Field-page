@@ -6,11 +6,12 @@
 body {
     height: 100vh;
     width: 100vw;
-    background: #08196f;
+    background: #000000;
     font-family: 'Poppins';
     height: 100vh;
     width: auto;
     background-image: url(/picture/bubbles-black-background.jpg);
+    background-repeat: no-repeat;
 
 }
 
@@ -51,11 +52,37 @@ main {
 
 
 .glass {
-    width: 1600px;
+    width: 1500px;
     height: 900px;
-    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 300px;
+    border-radius: 20px;
     border: solid 1px rgba(255, 255, 255, .2);
     background: rgba(255, 255, 255, .1);
     backdrop-filter: blur(21px );
+    color: white;
+    padding: 40px;
+    
     // box-shadow: -15px 17px 17px rgb(188, 188, 255);
+}
+
+.text  {
+    gap: 200px;
+}
+
+.glass p {
+    // padding: 20px;
+    height: 45px;
+    width: 400px;
+}  
+
+
+.projects {
+    width: 600px;
+    height: 900px;
+    border: solid 2px white;
+    border-radius: 15px;
+    justify-content: flex-end;
 }
