@@ -50,7 +50,7 @@ main {
   height: 900px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   gap: 300px;
   border-radius: 20px;
   border: solid 1px rgba(255, 255, 255, 0.2);
@@ -87,18 +87,19 @@ main {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  gap: 40px;
+  gap: 15px;
 }
 
 .box {
-  border: solid 1px rgba(101, 0, 253, 0.308);
+  border: solid 1px rgba(255, 255, 255, 0.308);
   -webkit-backdrop-filter: blur(600px);
           backdrop-filter: blur(600px);
   opacity: 0.8;
   border-radius: 15px;
   width: 450px;
   height: 250px;
-  padding: 15px;
+  padding: 10px;
+  font-weight: 600;
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -107,42 +108,18 @@ main {
   text-decoration: none;
 }
 
-.b1 {
-  background: red;
-}
-
-.b2 {
-  background: blue;
-}
-
-.b3 {
-  background: orange;
-}
-
-.b4 {
-  background: green;
-}
-
-.b5 {
-  background: #000000;
-}
-
-.b6 {
-  background: orchid;
-}
-
-.b7 {
-  background: white;
-}
-
 .box a {
   color: white;
   text-decoration: none;
 }
 
 .box:hover {
-  background: rgba(142, 0, 250, 0.1);
+  background: rgb(255, 255, 255);
+  border: solid 5px white;
+  color: blue;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(13, 59, 123, 0.14);
   opacity: 0.5;
-  border: none;
+  -webkit-backdrop-filter: blur(600px);
+          backdrop-filter: blur(600px);
   box-shadow: white;
 }/*# sourceMappingURL=style.css.map */
