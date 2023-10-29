@@ -99,10 +99,10 @@ header {
 }
 
 .box {
-  background-image: linear-gradient(135deg, #0d1122 0%, #130720 100%);
+  background-image: linear-gradient(135deg, #0d1122 0%, #130720 150%);
   -webkit-backdrop-filter: blur(600px);
           backdrop-filter: blur(600px);
-  opacity: 0.8;
+  opacity: 0.7;
   border-radius: 15px;
   width: 450px;
   height: 250px;
@@ -123,9 +123,11 @@ header {
 .box:hover {
   background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   border: none;
+  opacity: none;
 }
 
 .box a:hover {
   color: white;
   transition-duration: 0.2s;
+  opacity: none;
 }/*# sourceMappingURL=style.css.map */
