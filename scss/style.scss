@@ -6,16 +6,28 @@
 body {
     height: 100vh;
     width: 100vw;
-    background: #1b41ff;
+    background: #08196f;
     font-family: 'Poppins';
+    height: 100vh;
+    width: auto;
+    background-image: url(/picture/bubbles-black-background.jpg);
+
 }
+
 
 .container {
     height: 100vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
+    // background-image: url(/picture/xp.jpg);
+    background-repeat:no-repeat ;
+    object-fit:cover;
+    z-index: 1;
 }
+
+
+
 
 header {
     height: 100px;
@@ -26,23 +38,24 @@ header {
     justify-content: center;
     align-items: center;
     color: white;
+    opacity: .3;
 }
 
 main {
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 45px;
 }
 
+
 .glass {
-    width: 1400px;
+    width: 1600px;
     height: 900px;
-    // border: white solid 2px;
     border-radius: 5px;
-    background: linear-gradient( to right bottom, rgba(255, 255, 255, .4), rgba(255, 255, 255, .1));
-    backdrop-filter: blur(25px );
-    box-shadow: -15px 17px 17px rgb(55, 55, 228)
+    border: solid 1px rgba(255, 255, 255, .2);
+    background: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(21px );
+    // box-shadow: -15px 17px 17px rgb(188, 188, 255);
 }
